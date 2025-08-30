@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Plus Jakarta Sans";
+text-decoration: none;
+}
+
+button {
+background-image: linear-gradient(45deg, white, blue) ;
+}
+
+del {
+color: gray;
+}
+
+marquee {
+background-color: red;
+font-size: 20px;
+padding: 10px;
+font-weight: bold;
+}
+
+nav {
+width: 100%;
+height: 80px;
+
+position: sticky;
+top: 0px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 0px 30px;
+}
+
+nav.all {
+    list-style: none;
+}
+
+nav ul {
+display: flex;
+}
+
+nav ul li {
+list-style: none;
+margin: 0px 20px;
+font-weight: bold;
+}
+
+nav .auth a {
+padding: 15px 25px;
+background-color: rgb(9, 140, 228);
+border-radius: 30px;
+margin: 0 10px;
+color: white;
+font-weight: bold;
+}
+
+header {
+padding: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+
+header .card {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 30px;
+width: 350px;
+text-align: center;
+padding: 30px;
+background-image: linear-gradient(45deg, blue, white);
+transition: 0.3s all;
+margin: 10px;
+}
+
+.card:hover {
+box-shadow: 0px 0px 20px gray;
+transform: scale(1.05);
+}
+
+header .card img {
+width: 100%;
+}
+
+header .card .bottom h1 {
+color: white;
+
+}
+
+header .card .price {
+font-size: 32px;
+font-weight: bold;
+color: blue;
+text-align: left;
+width: 100%;
+}
+
+header .card del {
+font-size: 24px;
+color: gray;
+margin-bottom: 10px;
+text-decoration: line-through;
+display: block; 
+text-align: left; 
+width: 100%;
+}
+
+
+header .bottom {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+header .bottom button {
+font-size: 30px;
+font-weight: bold;
+padding: 5px 30px;
+margin-top: 20px;
+border: none;
+outline: none;
+border-radius: 10px;
+}
+
+header .bottom button:hover {
+background-color: black;
+color: white;
+transform: scale(1.05);
+transition: 0.3s all;
+margin: 10px;
+}
+
+.rating {
+display: flex;
+align-items: center;
+gap: 10px;
+font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.stars {
+color: orange;     
+font-size: 24px;      
+}
+
+.reviews {
+color: gray;          
+font-size: 16px;
+}
+
+style {
+    
+}
+
